@@ -36,8 +36,8 @@ LUA_BIN_DIR =       $(PREFIX)/bin
 #LUA_INCLUDE_DIR =   $(PREFIX)/include/lua51
 
 ## MacOSX (Macports)
-#PREFIX =            /opt/local
-#CJSON_LDFLAGS =     -bundle -undefined dynamic_lookup
+PREFIX =            ../skynet/3rd/lua
+CJSON_LDFLAGS =     -bundle -undefined dynamic_lookup
 
 ## Solaris
 #PREFIX =            /home/user/opt
